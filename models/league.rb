@@ -26,4 +26,9 @@ class League
     return total_score
   end
 
+  def total_matches_played
+    matches_played = @league_data.count
+    return matches_played
+  end
+
 end

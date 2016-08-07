@@ -26,6 +26,9 @@ alpakas_total_score = new_league.total_team_score(team_alpakas.id)
 puts hawks_total_score
 puts alpakas_total_score
 
+puts new_league.total_matches_played
+
+
 
 binding.pry
 nil
