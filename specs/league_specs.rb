@@ -22,8 +22,10 @@ class TestLeague < MiniTest::Test
   end
   # Test Passed
 
-  # def test_count_matches_played
+  def test_count_matches_played
+    assert_equal(2, @test_league_data.total_matches_played)
+  end
 
-  # end
+  # Test passed
 
 end
